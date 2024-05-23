@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Estedad-FD-Regular";
+  src: url("../fonts/Estedad-FD-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Estedad-FD-Black";
+  src: url("../fonts/Estedad-FD-Light.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #d92cf970, #d92cf940);
+  direction: rtl;
+  font-family: "Estedad-FD-Regular";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  width: 450px;
+  height: 350px;
+  background-color: red;
+  margin: auto;
+  background-color: #f567;
+  border: 2px solid #FFF;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 120px auto;
+}
+
+
+
+.rwd-table {
+  margin: auto;
+  margin-top: 80px;
+}
+
+.rwd-table button {
+  font-family: "Estedad-FD-Black";
+  border: none;
+  outline: none;
+  margin: auto;
+  cursor: pointer;
+  background-color: red;
+  color: #FFF;
+  padding: 5px 15px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  margin-bottom: 25px;
+  padding-top: 5px;
+}
+
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+
+}
+
+
+
+th,
+td {
+  padding: 0.8em 1em;
+  vertical-align: text-top;
+  text-align: left;
+  text-indent: -0.5em;
+  font-family: "Estedad-FD-Regular";
+}
+
+th {
+  vertical-align: bottom;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-weight: bold;
+  font-family: "Estedad-FD-Black";
+}
+
+td::before {
+  display: none;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+td:nth-of-type(2) {
+  font-style: italic;
+}
+
+th:nth-of-type(3),
+td:nth-of-type(3) {
+  text-align: right;
+}
+
+.div-searching {
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-search-data form {
+  background-color: #d92cf960;
+  margin: auto;
+  width: 420px;
+  flex-direction: column;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 15px;
+  height: auto;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-weight: 700;
+}
+
+.form-search-data form div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Estedad-FD-Regular";
+  margin: 10px 0;
+}
+
+.form-search-data form div input {
+  font-family: "Estedad-FD-Regular";
+  border-radius: 8px;
+  padding: 5px;
+  width: calc(100% - 85px);
+  background-color: #d92cf970;
+  border: none;
+  outline: none;
+  color: #FFF;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.form-search-data form div input::placeholder {
+  color: #fff;
+}
+
+.form-search-data form div .btn-search {
+  background-color: rgb(98, 245, 152);
+  color: #272727;
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  font-weight: 800;
+
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-family: "Estedad-FD-Regular";
+  cursor: pointer;
+}
